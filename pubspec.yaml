@@ -1,0 +1,45 @@
+name: omni_search_engine
+description: "All-in-One Local System & Media Search Engine for Android"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # High-Speed Local Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # Permissions & System Info
+  permission_handler: ^11.1.0
+  device_info_plus: ^9.1.1
+  
+  # Media & File Processing Engines
+  ffmpeg_kit_flutter_full: ^6.0.3
+  syncfusion_flutter_pdf: ^24.2.7
+  google_mlkit_text_recognition: ^0.11.0
+  
+  # Network & Utilities
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  crypto: ^3.0.3
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
