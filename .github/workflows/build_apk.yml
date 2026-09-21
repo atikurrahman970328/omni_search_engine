@@ -42,8 +42,7 @@ jobs:
           ANDROID_EOF
 
           cat << 'MANIFEST_EOF' > android/app/src/main/AndroidManifest.xml
-          <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-              package="com.omni.search">
+          <manifest xmlns:android="http://schemas.android.com/apk/res/android">
               <application
                   android:label="omni_search_engine"
                   android:name="${applicationName}"
