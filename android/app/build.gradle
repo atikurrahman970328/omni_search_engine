@@ -1,0 +1,12 @@
+android {
+    namespace "com.omni.search"
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.omni.search"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+}
